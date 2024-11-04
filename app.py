@@ -25,11 +25,11 @@ class Placement:
             print(f"your college : {self.college}") 
 list_placements=[]
 while True:
-    name=input("please enter your name")
-    branch=input("please enter your branch")
-    city=input("please eneter your city")
-    percentage=float(input("please enter your percentage"))
-    college=input("please enter your college name")
+    name=input("please enter your name  ")
+    branch=input("please enter your branch  ")
+    city=input("please eneter your city  ")
+    percentage=float(input("please enter your percentage  "))
+    college=input("please enter your college name  ")
     k=Placement(name,branch,city,percentage,college)   
     list_placements.append(k)
     print("your data has been added successfully")
