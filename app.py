@@ -12,4 +12,16 @@ class Placement:
         if self.percentage>=90:
             print("Hi,Congrats you have an capability to select in placement drive based on the below provided data by you")
             print(f"Your gud name is: {self.name}")
-            print(f"your branch : {self.branch}")    
+            print(f"your branch : {self.branch}")
+            print(f"your city: {self.city}")
+            print(f"your percentage : {self.percentage}")      
+            print(f"your college : {self.college}") 
+        else:
+            print("Hi,sorry you have  less chances on getting the placement based on capability to select in placement drive based on the below provided data by you")
+            print(f"Your gud name is: {self.name}")
+            print(f"your branch : {self.branch}")
+            print(f"your city: {self.city}")
+            print(f"your percentage : {self.percentage}")      
+            print(f"your college : {self.college}") 
+    
+
