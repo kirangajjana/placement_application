@@ -27,7 +27,7 @@ list_placements=[]
 while True:
     name=input("please enter your name")
     branch=input("please enter your branch")
-    city=input("please eneter your branch")
+    city=input("please eneter your city")
     percentage=float(input("please enter your percentage"))
     college=input("please enter your college name")
     k=Placement(name,branch,city,percentage,college)   
@@ -42,7 +42,8 @@ print("All the placement data") # we 2will be displaying all the plcement data a
 print('#'*40)
 for data in list_placements:
     data.Analysis()
-       
+    print("^"*30)
+
 
     
 
