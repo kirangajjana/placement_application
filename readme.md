@@ -45,7 +45,8 @@ Your branch: Computer Science
 Your city: New York
 Your percentage: 92
 Your college: NYU
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ```
+
 
 This project is licensed under the MIT License.
 
